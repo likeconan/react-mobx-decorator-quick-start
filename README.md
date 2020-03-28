@@ -38,6 +38,8 @@ They are used for managing all your modules and when you try to run npm install 
 
 we use @babel/plugin-proposal-decorators and @babel/plugin-proposal-class-properties to support decorator and es6 class properties
 
+we use BundleAnalyzerPlugin to analyze your scripts size so that you can split for performance
+
 ## eslint
 
 [eslint](https://eslint.org/) is used for analyzing your code to quickly find problems. And define coding style so that all contributions are in same pattern.
